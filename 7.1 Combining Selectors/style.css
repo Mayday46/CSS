@@ -1,0 +1,21 @@
+/* Write your code here: */
+
+/* Grouping h1, h2 together */
+h1, h2{
+    color: blueviolet;
+}
+
+/* Parent > Child */
+/* Child = Apply to direct child of left side*/
+.box > p {
+    color: firebrick;
+}
+
+/* Decendant li under box*/
+.box li{
+    color: blue;
+}
+
+li.done{
+    color:seagreen;
+}
